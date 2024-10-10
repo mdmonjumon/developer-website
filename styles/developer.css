@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Azeret Mono", monospace;
+    width: 1440px;
+    margin: 0 auto;
+    border: 2px solid black;
+}
+
+main{
+    width: 1140px;
+    
+}
+
+/* common shared styles starts here */
+
+/* common shared styles ends here */
+
+/* header section styles starts here */
+
+.header-section .navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 150px;
+}
+
+.header-section .navigation h2 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.header-section .navigation button {
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    opacity: 0.8;
+    padding: 17px 24px;
+    cursor: pointer;
+}
+
+#hero-section {
+    background-image: url('../assets/Hero-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 25px 0px 45px 0px;
+}
+
+#hero-section .hero-container {
+    max-width: 998px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+#hero-section .hero-container .hero-img-container {
+    width: 240px;
+}
+
+#hero-section .hero-container .hero-img-container img {
+    width: 100%;
+}
+
+#hero-section .hero-container h1 {
+    color: rgb(13, 19, 33);
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    text-align: center;
+}
+
+#hero-section .hero-container p {
+    color: rgb(13, 19, 33);
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    opacity: 0.7;
+}
+
+#hero-section .hero-container button {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    padding: 20px 24px;
+    border: none;
+}
+
+/* header section styles ends here */
