@@ -286,7 +286,7 @@ main {
     margin-bottom: 50px;
 }
 
-.next-target-section .next-target-info-container{
+.next-target-section .next-target-info-container {
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -302,11 +302,13 @@ main {
     gap: 24px;
     align-items: center;
 }
-.next-target-section .next-target-info-container .next-target-info .info-text{
+
+.next-target-section .next-target-info-container .next-target-info .info-text {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
+
 .next-target-section .next-target-info-container .next-target-info .info-text h4 {
     color: rgb(13, 19, 33);
     font-size: 24px;
@@ -328,3 +330,63 @@ main {
 }
 
 /* My Next Target section styles end here */
+
+
+/* I need Support section styles start here */
+
+.support-section {
+    border-radius: 16px;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.2)), url('../assets/handshake.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 64px 48px;
+    margin-bottom: 100px;
+    /* background: linear-gradient(rgba(0, 0, 0, 0.2));
+    background-blend-mode: overlay; */
+}
+
+.support-section h2 {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.support-section p {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    opacity: 0.7;
+    width: 606px;
+    margin: 16px auto 24px;
+}
+
+.support-section-inputAndButton-container{
+    text-align: center;
+}
+
+.support-section input {
+    width: 548px;
+    padding: 19px 20px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    color: rgba(13, 19, 33, 0.4);
+    font-size: 16px;
+    font-weight: 400;
+}
+.support-section button {
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 17px 20px;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    border: 0;
+    margin-left: 16px;
+}
+
+/* I need Support section styles end here */
