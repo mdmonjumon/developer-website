@@ -409,6 +409,8 @@ main {
 
 .footer-section .footer-icon-container {
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 24px;
 }
 
