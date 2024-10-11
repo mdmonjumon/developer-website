@@ -195,3 +195,24 @@ main {
 }
 
 /* why web development section styles ends here */
+
+/* My Inspiration section styles start here */
+.my-inspiration-section {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.my-inspiration-section .video-container {
+    padding: 30px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+
+}
+
+.my-inspiration-section .video-container iframe {
+    border-radius: 16px;
+}
+
+/* My Inspiration section styles end here */
