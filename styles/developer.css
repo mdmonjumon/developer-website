@@ -336,14 +336,12 @@ main {
 
 .support-section {
     border-radius: 16px;
-    background-image:linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.2)), url('../assets/handshake.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)), url('../assets/handshake.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     padding: 64px 48px;
-    margin-bottom: 100px;
-    /* background: linear-gradient(rgba(0, 0, 0, 0.2));
-    background-blend-mode: overlay; */
+    margin-bottom: 80px;
 }
 
 .support-section h2 {
@@ -364,7 +362,7 @@ main {
     margin: 16px auto 24px;
 }
 
-.support-section-inputAndButton-container{
+.support-section-inputAndButton-container {
     text-align: center;
 }
 
@@ -378,6 +376,7 @@ main {
     font-size: 16px;
     font-weight: 400;
 }
+
 .support-section button {
     border-radius: 8px;
     background: rgb(255, 255, 255);
@@ -390,3 +389,26 @@ main {
 }
 
 /* I need Support section styles end here */
+
+/* footer section styles start here */
+.footer-section {
+    padding: 32px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+}
+
+.footer-section .footer-title {
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.footer-section .footer-icon-container{
+    display: flex;
+    gap: 24px;
+}
+
+/* footer section styles end here */
