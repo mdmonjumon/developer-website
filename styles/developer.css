@@ -216,3 +216,64 @@ main {
 }
 
 /* My Inspiration section styles end here */
+
+/* My Current Target section styles start here */
+.current-target-section {
+    margin: 120px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.current-target-card-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 16px;
+}
+
+.current-target-section .current-target-card-container #card {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.current-target-section .current-target-card-container #card h4 {
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.current-target-section .current-target-card-container #card p {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+}
+
+.current-target-section .current-target-card-container #card a {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.current-target-section .current-target-card-container .html-card {
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.current-target-section .current-target-card-container .css-card {
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.current-target-section .current-target-card-container .javaScript-card {
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
+
+/* My Current Target section styles start here */
