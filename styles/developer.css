@@ -277,3 +277,54 @@ main {
 }
 
 /* My Current Target section styles start here */
+
+/* My Next Target section styles start here */
+.next-target-section {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 50px;
+}
+
+.next-target-section .next-target-info-container{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 24px;
+}
+
+.next-target-section .next-target-info-container .next-target-info {
+    padding: 40px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+.next-target-section .next-target-info-container .next-target-info .info-text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.next-target-section .next-target-info-container .next-target-info .info-text h4 {
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.next-target-section .next-target-info-container .next-target-info .info-text p {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+}
+
+.next-target-section .next-target-info-container .next-target-info .info-text a {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/* My Next Target section styles end here */
