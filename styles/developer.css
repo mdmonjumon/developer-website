@@ -4,13 +4,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Azeret Mono", monospace;
 }
 
 body {
-    font-family: "Azeret Mono", monospace;
     width: 1440px;
     margin: 0 auto;
-    border: 2px solid black;
 }
 
 main {
@@ -100,15 +99,18 @@ main {
 }
 
 #hero-section .hero-container button {
-    color: rgb(255, 255, 255);
-    font-family: Azeret Mono;
-    font-size: 20px;
-    font-weight: 600;
-    text-align: center;
     border-radius: 8px;
     background: rgb(13, 19, 33);
     padding: 20px 24px;
     border: none;
+}
+
+#hero-section .hero-container button a {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
 }
 
 /* header section styles ends here */
@@ -406,7 +408,7 @@ main {
     font-weight: 600;
 }
 
-.footer-section .footer-icon-container{
+.footer-section .footer-icon-container {
     display: flex;
     gap: 24px;
 }
